@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aonde está o Smile?</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="principal" class="container-fluid">
+        <h1 class="Titulo">Ache o Smile</h1>
+        <p class="Titulo">Tente adivinhar aonde está o Sorriso.</p>
+        <div id="linha1" class="row justify-content-center">
+            <div id="0" class="inicial" onclick="verifica(this)">0</div>
+            <div id="1" class="inicial" onclick="verifica(this)">1</div>
+            <div id="2" class="inicial" onclick="verifica(this)">2</div>
+            <div id="3" class="inicial" onclick="verifica(this)">3</div>
+        </div>
+        <div class="row justify-content-center" id="div1">
+            <p id="resposta"></p>
+            <button id="joganovamente" class="invisivel">Continuar</button>
+            <button id="reiniciar" class="invisivel">Reiniciar</button>
+        </div>
+    </div>
+    <footer><p>Pressione 'R' para reiniciar o jogo e 'space' ou 'enter' depois de escolher uma carta para continuar jogando</p></footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

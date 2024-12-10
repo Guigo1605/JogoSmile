@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5f3f9;
+  }
+  
+  #principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #linha1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .invisivel {
+    display: none;
+  }
+  
+  .visivel {
+    display: inline;
+    margin:15px
+  }
+  
+  .inicial {
+    text-align: center;
+    font-size: 100px;
+    background-color: rgb(101, 194, 255);
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(49, 0, 128);
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .acertou {
+    text-align: center;
+    color: rgb(3, 86, 0);
+    background-color: rgb(0, 159, 40);
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(3, 86, 0);
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .errou {
+    text-align: center;
+    color: rgb(68, 0, 0);
+    background-color: red;
+    width: 150px;
+    height: 200px;
+    border: 15px solid rgb(68, 0, 0);
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  #resposta.perdeu {
+    background-color: #ffcccc; /* Fundo vermelho claro */
+    border: 3px solid rgb(68, 0, 0); /* Borda vermelha */
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #resposta {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    padding: 10px;
+    background-color: rgb(101, 194, 255);
+    border: 3px solid rgb(49, 0, 128);
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .titulo_p {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .mensagem-perda {
+    background-color: #be7575; /* Fundo claro */
+    color: rgb(104, 0, 0); /* Texto vermelho escuro */
+    border: 2px solid rgb(91, 1, 1); /* Borda vermelha */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+    margin-top: 40px; /* Espaço acima */
+    margin-bottom: 40px; /* Espaço acima */
+    font-size: 1.2em; /* Tamanho do texto */
+  }
+  
+  body.perdeu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffc0c0;
+  }
+  
+  .Titulo{
+    text-transform: uppercase;
+    font-family: 'Lato';
+  }
